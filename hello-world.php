@@ -1,4 +1,8 @@
-<?php
+This is before my PHP tag!
+
+
+<?php // All PHP code must be inside the <?php tags!
+
 // "Echo" and "print" are functions we can...
 // use to output strings as a response.
 echo "Hello, World!";
@@ -11,4 +15,3 @@ echo "Hello, World!";
       (familiar)
           multi-line
   comment! */
-  
