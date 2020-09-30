@@ -82,3 +82,6 @@ $object->name = 'TECHCareers'; // Simple property assignment.
 $object->cohort = 4.2;
 $object->year = 2020;
 echo "\n\n$object->name" . ' | ' . $object->cohort . ' | ' . $object->year;
+
+// Null...
+$myNullVar = NULL; // Again, this is case-insensitive.
