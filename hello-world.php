@@ -38,3 +38,40 @@ echo "\n\nTwo students in TECHCareers are:\n$studentName\n$studentName2";
 
 // The concatenation character in PHP is the period!
 echo "\n\nThis string is being " . 'concatenated!';
+
+// DATA-TYPES!
+
+// Strings...
+$string1 = 'I\'m a string!';
+$string2 = "I'm ALSO a string!";
+
+// Integers...
+$int1 = -26;
+$int2 = 0;
+$int3 = 42;
+
+// Floats / Doubles...
+$float1 = 3.14;
+$float2 = -29.6;
+
+// Booleans...
+$bool1 = TRUE; // Note... they are NOT case-sensitive!
+$bool2 = false;
+
+// Arrays...
+
+// These are considered INDEXED arrays.
+$array1 = [ 'First value', 17, 16.8, FALSE ]; // This syntax is identical in function to...
+$array2 = array( 'First value', 17, 16.8, FALSE ); // this syntax!!!
+echo $array1[1]; // outputs "17"
+
+// There is also an ASSOCIATIVE array, where KEYS are defined as well!
+// This is most comparable to a MAP in JS, or even a basic object.
+$array3 = array(
+  // Associative arrays have KEYS separated from VALUES by a fat arrow.
+  'key'  => 'value',
+  'name' => 'George',
+  'age'  => 36
+);
+// echo $array3[1]; // Cannot find by index here!
+echo $array3['name']; // Outputs "George".
