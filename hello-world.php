@@ -85,3 +85,11 @@ echo "\n\n$object->name" . ' | ' . $object->cohort . ' | ' . $object->year;
 
 // Null...
 $myNullVar = NULL; // Again, this is case-insensitive.
+
+// LOOPS!
+
+// Our old friend, the for loop is here!
+for ( $iterator = 0; $iterator < 10; $iterator += 2 )
+{
+  echo "\nOUR FOR LOOP IS ON ITERATION: $iterator";
+}
