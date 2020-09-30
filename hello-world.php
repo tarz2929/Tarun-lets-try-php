@@ -115,7 +115,6 @@ foreach ( $students as $name => $hobby )
   echo "\n - Hi, my name is $name! I like $hobby.";
 }
 
-
 // While loop.
 $i = 12;
 while ( $i > 2 )
@@ -123,3 +122,22 @@ while ( $i > 2 )
   echo "\nWHILE ITERATOR IS AT: $i";
   $i--; // This is the same as: $i = $i - 1;
 }
+
+echo "\n\n";
+
+// FUNCTION
+
+function addition ( $num1, $num2 )
+{ // + is a mathematical operator, so we're good to go!
+  return $num1 + $num2;
+}
+
+echo "\nADDITION RESULT: " . addition( 5, 10 ); // 5 + 10
+echo "\nADDITION RESULT: " . addition( "23", 3 ); // 23 + 3
+echo "\nADDITION RESULT: " . addition( "hi5", 2 ); // 0 + 2
+echo "\nADDITION RESULT: " . addition( " 7", 3 ); // 7 + 3
+echo "\nADDITION RESULT: " . addition( "-2", 1 ); // -2 + 1
+echo "\nADDITION RESULT: " . addition( "37tree5", 2 ); // 37 + 2
+
+$myFunctionResult = addition( 2, 2 );
+echo "\nResult from variable: $myFunctionResult";
