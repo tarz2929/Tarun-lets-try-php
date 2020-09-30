@@ -75,3 +75,10 @@ $array3 = array(
 );
 // echo $array3[1]; // Cannot find by index here!
 echo $array3['name']; // Outputs "George".
+
+// Objects...
+$object = new stdClass(); // Create a new instance of Standard Class.
+$object->name = 'TECHCareers'; // Simple property assignment.
+$object->cohort = 4.2;
+$object->year = 2020;
+echo "\n\n$object->name" . ' | ' . $object->cohort . ' | ' . $object->year;
