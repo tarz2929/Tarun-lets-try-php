@@ -1,6 +1,6 @@
 <?php
   // Assigning a variable.
-  $pageTitle = 'TECHCareers | Basic PHP Webpage';
+  $pageTitle = 'TECHCareers | About Page';
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
