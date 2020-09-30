@@ -93,3 +93,24 @@ for ( $iterator = 0; $iterator < 10; $iterator += 2 )
 {
   echo "\nOUR FOR LOOP IS ON ITERATION: $iterator";
 }
+
+// Associative array.
+$students = [
+  'Danish' => 'Reading',
+  'Eboka'  => 'Reading',
+  'Birm'   => 'Watching Tennis',
+  'Adolf'  => 'Playing Music',
+  'Kenji'  => 'Rock Climbing',
+  'Fahad'  => 'Gaming'
+];
+
+// "foreach" lets us loop through a set list of
+// values from an Array or Object!
+// NOTE: We can grab an index/key AND the value by
+//       using the fat arrow in our foreach!
+//       ( ARRAY as KEY => VALUE )
+// This is comparable to "for...of" and "for...in" from JS.
+foreach ( $students as $name => $hobby )
+{
+  echo "\n - Hi, my name is $name! I like $hobby.";
+}
