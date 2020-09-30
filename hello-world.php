@@ -15,3 +15,9 @@ echo "Hello, World!";
       (familiar)
           multi-line
   comment! */
+
+// Variable names start with a dollar-sign ($).
+// ***NOTE: They ARE case-sensitive.
+// (Also, don't start them with numbers or special characters.)
+$studentName = "\nFahad";
+echo $studentName;
