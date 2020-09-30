@@ -35,3 +35,6 @@ echo '\n\n Two students in TECHCareers are:\n- $studentName\n- $studentName2.';
 // Double quotes, WILL though! Careful which one you use for
 // your current use-case!
 echo "\n\nTwo students in TECHCareers are:\n$studentName\n$studentName2";
+
+// The concatenation character in PHP is the period!
+echo "\n\nThis string is being " . 'concatenated!';
